@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "markdown.marp.themes": ["./theme/sic.css"],
+  "markdownlint.config": {
+    "extends": ".markdownlint.json"
+  },
+}

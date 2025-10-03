@@ -1,0 +1,77 @@
+/* @theme sic */
+
+@charset "UTF-8";
+@import 'default';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+
+:root {
+  font-family: "Noto Sans JP", sans-serif;
+  --color-text: #444241;
+  --color-background: #ffffff;
+  --color-primary: #FF914D;
+  --color-secondary: #FFF8D9;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+  color: var(--color-text);
+}
+
+section {
+  background: url('./theme/assets/main.png');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  padding: 144px 108px;
+}
+section h1 {
+  position: absolute;
+  top: 40px;
+  font-size: 42px;
+  color: var(--color-primary);
+}
+
+/* Title slide */
+section.title {
+  background: url('./theme/assets/title.png');
+  background-size: cover;
+  padding-left: 160px;
+}
+section.title::after {
+  display: none;
+}
+section.title h1 {
+  position: absolute;
+  top: 250px;
+  font-size: 92px;
+  color: var(--color-primary);
+}
+section.title h2 {
+  position: absolute;
+  top: 175px;
+  font-size: 40px;
+  color: var(--color-primary);
+}
+section.title .author {
+  position: absolute;
+  top: 630px;
+  left: 1020px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+section.title .date {
+  position: absolute;
+  top: 630px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+section::after {
+  content: attr(data-marpit-pagination);
+  position: absolute;
+  top: 52px;
+  right: 72px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-primary);
+}

@@ -29,7 +29,7 @@ paginate: true
 # 「Vibe Coding」
 
 - 名前の通り「雰囲気コーディング」
-- 人間が指示を出し、AIが主体となってコードを書くコーディングスタイル
+- 人間が指示を出し、AIが主体となってコードを書く最近のスタイル
 
 </br>
 
@@ -67,11 +67,12 @@ paginate: true
 # 「役割演技プロンプト」の限界
 
 - 最近のLLMの性能向上で，役割演技プロンプトは万能でなくなったらしい
-- ロールプレイ支持することで，高度な推論能力が阻害されるとか
+- ロールを指示することで，高度な推論能力が阻害されるとか
 
 </br>
 
 - When "A Helpful Assistant" Is Not Really Helpful: Personas in System Prompts Do Not Improve Performances of Large Language Models
+  2024年の論文
   <https://arxiv.org/abs/2311.10054>
   > "Contrary to popular belief, adding personas to system prompts does not necessarily improve the performance of LLMs and, in some cases, can even be detrimental."
 
@@ -109,7 +110,7 @@ paginate: true
 # Spec駆動開発を実現するKiro
 
 - 2025年7月にAWSが提供開始したIDE
-- watlistの順番がきたので，ようやく最近さわれました
+- waitlistの順番がきたので，ようやく最近さわれました
 
 <center>
 
@@ -117,7 +118,7 @@ paginate: true
   <source src="/theme/assets/kiro.mp4" type="video/mp4">
   お使いのブラウザは動画の再生に対応していません。
 </video> -->
-![w:670](/theme/assets/kiro.png)
+![w:670](./theme/assets/kiro.png)
 
 </center>
 
@@ -135,6 +136,6 @@ paginate: true
 
 <center>
 
-![w:670](/theme/assets/marp.png)
+![w:670](./theme/assets/marp.png)
 
 </center>

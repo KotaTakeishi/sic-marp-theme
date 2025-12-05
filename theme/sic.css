@@ -45,7 +45,7 @@ section.title::after {
 section.title h1 {
   position: absolute;
   top: 250px;
-  font-size: 92px;
+  font-size: 80px;
   color: var(--color-primary);
 }
 section.title h2 {
@@ -76,5 +76,20 @@ section::after {
   right: 72px;
   text-align: center;
   font-size: 24px;
+  color: var(--color-primary);
+}
+
+/* Subsection slide */
+section.subsection {
+  background: url('./theme/assets/subsection.png');
+  background-size: cover;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section.subsection h1 {
+  position: static;
+  font-size: 64px;
   color: var(--color-primary);
 }
